@@ -26,6 +26,10 @@ composer require ez-it-solutions/app-cleanup
 
 That's it! The package will automatically register the command with Laravel.
 
+#### Compatibility
+
+This package is compatible with Laravel 6.x, 7.x, 8.x, 9.x, and 10.x.
+
 ### Option 2: Manual Installation
 
 1. Download the `AppCleanup.php` file from our [GitHub repository](https://github.com/ez-it-solutions/app-cleanup)
@@ -65,9 +69,10 @@ app-cleanup/
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/console": "^8.0|^9.0|^10.0",
-        "illuminate/support": "^8.0|^9.0|^10.0"
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
